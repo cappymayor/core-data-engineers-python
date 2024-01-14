@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.9.0"
 
-      - name: install dependencies
+      - name: install dependencies for checks
         run: pip install -r requirements-dev.txt
 
       - name: Running isort.
