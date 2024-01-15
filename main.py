@@ -1,2 +1,3 @@
-x = 5
-print(x)
+def add_numbers():
+    print(2 + 2)
+add_numbers()
